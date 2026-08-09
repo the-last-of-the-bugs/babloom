@@ -1,8 +1,8 @@
-# Babloom
+# BaBloom
 
 > A framework-agnostic TypeScript rich-text editor for React, Vue, and Svelte.
 
-Babloom is an extensible rich-text editor built with TypeScript and designed to work across modern frontend frameworks.
+BaBloom is an extensible rich-text editor built with TypeScript and designed to work across modern frontend frameworks.
 
 It provides a framework-independent editor core with a consistent API, an extension-first architecture, rich text formatting, and media support.
 
@@ -22,7 +22,7 @@ It provides a framework-independent editor core with a consistent API, an extens
 * 🔌 **Custom upload handlers**
 * 🛡️ **TypeScript-first API**
 
-> Babloom is currently under active development. Some features and APIs may change before the first stable release.
+> BaBloom is currently under active development. Some features and APIs may change before the first stable release.
 
 ---
 
@@ -42,13 +42,13 @@ Make your changes, add tests where appropriate, and open a pull request.
 
 ## 📜 License
 
-Babloom is open source and available under the [MIT License](LICENSE).
+BaBloom is open source and available under the [MIT License](LICENSE).
 
 ---
 
-## ⭐ Why Babloom?
+## ⭐ Why BaBloom?
 
-Babloom aims to make rich-text editing more approachable for modern frontend developers.
+BaBloom aims to make rich-text editing more approachable for modern frontend developers.
 
 The project focuses on three principles:
 
@@ -69,4 +69,3 @@ The project focuses on three principles:
 <p align="center">
   Built with TypeScript and ❤️ for the open-source community.
 </p>
-```
