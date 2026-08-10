@@ -1,0 +1,25 @@
+.babloom-content {
+  outline: none;
+  min-height: 12rem;
+  line-height: 1.7;
+}
+
+.babloom-content[data-empty]::before {
+  content: attr(data-placeholder);
+  opacity: 0.45;
+  pointer-events: none;
+  display: block;
+}
+
+.babloom-content h1 { font-size: 1.875rem; font-weight: 700; margin: 1.2rem 0 .6rem; }
+.babloom-content h2 { font-size: 1.5rem; font-weight: 700; margin: 1.1rem 0 .5rem; }
+.babloom-content h3 { font-size: 1.25rem; font-weight: 600; margin: 1rem 0 .5rem; }
+.babloom-content p { margin: .5rem 0; }
+.babloom-content ul { list-style: disc; padding-left: 1.5rem; }
+.babloom-content ol { list-style: decimal; padding-left: 1.5rem; }
+.babloom-content blockquote { border-left: 3px solid currentColor; opacity: .85; padding-left: 1rem; margin: .75rem 0; }
+.babloom-content code { font-family: ui-monospace, monospace; font-size: .875em; padding: .1em .35em; border-radius: .3em; background: rgba(127,127,127,.16); }
+.babloom-content a { text-decoration: underline; }
+.babloom-content hr { margin: 1.25rem 0; border: 0; border-top: 1px solid rgba(127,127,127,.35); }
+.babloom-content img { max-width: 100%; border-radius: .5rem; margin: .5rem 0; }
+.babloom-content img[data-selected] { outline: 2px solid currentColor; outline-offset: 2px; }

@@ -1,0 +1,24 @@
+{
+  "name": "@babloom/core",
+  "version": "0.1.0",
+  "description": "Framework-agnostic TypeScript rich-text editor core for BaBloom",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./styles.css": "./dist/styles.css"
+  },
+  "files": ["dist"],
+  "sideEffects": false,
+  "keywords": ["editor", "rich-text", "wysiwyg", "typescript", "babloom"],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "test": "vitest run"
+  }
+}
