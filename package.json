@@ -1,0 +1,25 @@
+{
+  "name": "babloom",
+  "version": "0.0.0",
+  "private": true,
+  "description": "A framework-agnostic TypeScript rich text editor for React, Vue, and Svelte.",
+  "license": "MIT",
+  "packageManager": "pnpm@11.11.0",
+  "type": "module",
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "test": "turbo test",
+    "lint": "turbo lint",
+    "typecheck": "turbo typecheck",
+    "changeset": "changeset",
+    "version": "changeset version",
+    "release": "pnpm build && changeset publish"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.29.7",
+    "turbo": "^2.10.9",
+    "typescript": "^7.0.2",
+    "vitest": "^4.1.10"
+  }
+}
