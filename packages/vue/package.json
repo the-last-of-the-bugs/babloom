@@ -1,0 +1,13 @@
+{
+  "name": "@babloom/vue",
+  "version": "0.1.0",
+  "description": "Vue 3 adapter for the BaBloom rich-text editor",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": ["dist"],
+  "peerDependencies": { "vue": "^3.4.0" },
+  "dependencies": { "@babloom/core": "workspace:*" },
+  "scripts": { "build": "vite build" }
+}
