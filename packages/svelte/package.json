@@ -1,0 +1,28 @@
+{
+  "name": "@babloom/svelte",
+  "version": "0.1.0",
+  "description": "Svelte 5 adapter for the BaBloom rich-text editor",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "svelte": "./dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "svelte": "^5.0.0"
+  },
+  "dependencies": {
+    "@babloom/core": "workspace:*"
+  },
+  "scripts": {
+    "build": "svelte-package -o dist"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^7.3.0",
+    "svelte": "^5.56.8",
+    "svelte-check": "^4.7.5",
+    "vite": "^8.2.1"
+  }
+}
