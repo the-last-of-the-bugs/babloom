@@ -5,9 +5,19 @@
   "license": "MIT",
   "type": "module",
   "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
-  "files": ["dist"],
-  "peerDependencies": { "vue": "^3.4.0" },
-  "dependencies": { "@babloom/core": "workspace:*" },
-  "scripts": { "build": "vite build" }
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "vue": "^3.4.0"
+  },
+  "dependencies": {
+    "@babloom/core": "workspace:*"
+  },
+  "scripts": {
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.8"
+  }
 }
