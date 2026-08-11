@@ -46,7 +46,7 @@ function Playground() {
                 </button>
               ))}
             </div>
-            <pre className="max-h-[32rem] overflow-auto p-4 text-[12px] leading-relaxed text-muted-foreground">
+            <pre className="max-h-128 overflow-auto p-4 text-[12px] leading-relaxed text-muted-foreground">
               <code>
                 {tab === "json"
                   ? JSON.stringify(output?.json ?? {}, null, 2)

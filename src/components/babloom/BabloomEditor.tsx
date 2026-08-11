@@ -114,7 +114,7 @@ export function BabloomEditor({
     <div className="overflow-hidden rounded-xl border bg-card shadow-sm">
       <div className="flex flex-wrap items-center gap-1 border-b bg-muted/40 p-1.5">
         {groups.map((group, groupIndex) => (
-          <div key={groupIndex} className="flex items-center gap-0.5 pr-1.5 [&:not(:last-child)]:border-r">
+          <div key={groupIndex} className="flex items-center gap-0.5 pr-1.5 not-last:border-r">
             {group.map((item) => {
               const Icon = item.icon;
               const isActive = item.active ? Boolean(editor?.isActive(item.active)) : false;
