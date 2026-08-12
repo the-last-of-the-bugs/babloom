@@ -21,8 +21,8 @@
     "release": "pnpm build && pnpm build:packages && changeset publish"
   },
   "dependencies": {
-    "@babloom/core": "workspace:*",
-    "@babloom/react": "workspace:*",
+    "@tlob/babloom-core": "workspace:*",
+    "@tlob/babloom-react": "workspace:*",
     "@hookform/resolvers": "^5.2.2",
     "@radix-ui/react-accordion": "^1.2.12",
     "@radix-ui/react-alert-dialog": "^1.1.15",

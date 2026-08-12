@@ -17,14 +17,14 @@ export const Route = createFileRoute("/docs/vue")({
 
 function Page() {
   return (
-    <DocsPage title="Vue" description="The @babloom/vue adapter ships a useEditor composable and a ready-made component.">
+    <DocsPage title="Vue" description="The @tlob/babloom-vue adapter ships a useEditor composable and a ready-made component.">
       <H2>Composable</H2>
       <CodeBlock
         lang="vue"
         code={`<script setup lang="ts">
-import { StarterKit } from "@babloom/core";
-import { useEditor } from "@babloom/vue";
-import "@babloom/core/styles.css";
+import { StarterKit } from "@tlob/babloom-core";
+import { useEditor } from "@tlob/babloom-vue";
+import "@tlob/babloom-core/styles.css";
 
 const { editor, element } = useEditor({
   content: "<p>Hello BaBloom</p>",
@@ -43,8 +43,8 @@ const { editor, element } = useEditor({
       <CodeBlock
         lang="vue"
         code={`<script setup lang="ts">
-import { BabloomEditor } from "@babloom/vue";
-import { StarterKit } from "@babloom/core";
+import { BabloomEditor } from "@tlob/babloom-vue";
+import { StarterKit } from "@tlob/babloom-core";
 </script>
 
 <template>

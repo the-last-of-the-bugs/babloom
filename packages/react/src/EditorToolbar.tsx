@@ -1,5 +1,5 @@
 import React from "react";
-import type { Editor } from "@babloom/core";
+import type { Editor } from "@tlob/babloom-core";
 
 export interface ToolbarItem {
   name: string;

@@ -1,5 +1,5 @@
 {
-  "name": "@babloom/core",
+  "name": "@tlob/babloom-core",
   "version": "0.1.0",
   "description": "Framework-agnostic TypeScript rich-text editor core for BaBloom",
   "license": "MIT",

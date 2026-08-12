@@ -21,7 +21,7 @@ function Page() {
       <H2>Setup</H2>
       <CodeBlock
         lang="ts"
-        code={`import { ImageExtension, type UploadResult } from "@babloom/core";
+        code={`import { ImageExtension, type UploadResult } from "@tlob/babloom-core";
 
 async function uploadImage(file: File): Promise<UploadResult> {
   const body = new FormData();

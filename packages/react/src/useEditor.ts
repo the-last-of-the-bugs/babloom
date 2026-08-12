@@ -1,4 +1,4 @@
-import { Editor, type EditorOptions } from "@babloom/core";
+import { Editor, type EditorOptions } from "@tlob/babloom-core";
 import { useEffect, useRef, useState } from "react";
 
 /**

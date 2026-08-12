@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { EditorOptions } from "@babloom/core";
+import type { EditorOptions } from "@tlob/babloom-core";
 import { useEditor } from "./useEditor";
 
 const props = defineProps<{ options?: Omit<EditorOptions, "element">; class?: string }>();

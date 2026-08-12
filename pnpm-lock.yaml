@@ -8,10 +8,10 @@ importers:
 
   .:
     dependencies:
-      '@babloom/core':
+      '@tlob/babloom-core':
         specifier: workspace:*
         version: link:packages/core
-      '@babloom/react':
+      '@tlob/babloom-react':
         specifier: workspace:*
         version: link:packages/react
       '@hookform/resolvers':
@@ -203,7 +203,7 @@ importers:
 
   packages/react:
     dependencies:
-      '@babloom/core':
+      '@tlob/babloom-core':
         specifier: workspace:*
         version: link:../core
     devDependencies:
@@ -222,7 +222,7 @@ importers:
 
   packages/svelte:
     dependencies:
-      '@babloom/core':
+      '@tlob/babloom-core':
         specifier: workspace:*
         version: link:../core
     devDependencies:
@@ -247,7 +247,7 @@ importers:
 
   packages/vue:
     dependencies:
-      '@babloom/core':
+      '@tlob/babloom-core':
         specifier: workspace:*
         version: link:../core
       vue:

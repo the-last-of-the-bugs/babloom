@@ -1,4 +1,4 @@
-import { Editor, type EditorOptions } from "@babloom/core";
+import { Editor, type EditorOptions } from "@tlob/babloom-core";
 import { onBeforeUnmount, onMounted, ref, shallowRef, triggerRef } from "vue";
 
 export function useEditor(options: Omit<EditorOptions, "element"> = {}) {

@@ -49,8 +49,8 @@ function Page() {
       <H2>Quick look</H2>
       <CodeBlock
         lang="tsx"
-        code={`import { StarterKit, ImageExtension } from "@babloom/core";
-import { useEditor } from "@babloom/react";
+        code={`import { StarterKit, ImageExtension } from "@tlob/babloom-core";
+import { useEditor } from "@tlob/babloom-react";
 
 const { editor, ref } = useEditor({
   content: "<p>Hello from BaBloom</p>",
