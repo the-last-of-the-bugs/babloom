@@ -1,5 +1,5 @@
 import React from "react";
-import type { Editor } from "@babloom/core";
+import type { Editor } from "@tlob/babloom-core";
 import type { RefObject } from "react";
 
 export interface EditorContentProps {

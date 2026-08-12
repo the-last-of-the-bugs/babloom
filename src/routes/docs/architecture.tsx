@@ -26,9 +26,9 @@ function Page() {
         lang="text"
         code={`Your app (React / Vue / Svelte)
         |
-   Framework adapter  (@babloom/react | vue | svelte)
+   Framework adapter  (@tlob/babloom-react | vue | svelte)
         |
-   Editor core        (@babloom/core)
+   Editor core        (@tlob/babloom-core)
    - document model   - commands
    - selection        - history
    - extensions       - serialization

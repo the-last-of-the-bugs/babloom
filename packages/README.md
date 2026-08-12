@@ -6,10 +6,10 @@ Framework-agnostic TypeScript rich-text editor with an extension-first architect
 
 | Package | Description |
 | --- | --- |
-| `@babloom/core` | Editor core: document model, commands, selection, history, extensions, serialization |
-| `@babloom/react` | React adapter (`useEditor`, `EditorContent`, `EditorToolbar`) |
-| `@babloom/vue` | Vue 3 adapter (`useEditor`, `BabloomEditor`) |
-| `@babloom/svelte` | Svelte 5 adapter (`BabloomEditor`) |
+| `@tlob/babloom-core` | Editor core: document model, commands, selection, history, extensions, serialization |
+| `@tlob/babloom-react` | React adapter (`useEditor`, `EditorContent`, `EditorToolbar`) |
+| `@tlob/babloom-vue` | Vue 3 adapter (`useEditor`, `BabloomEditor`) |
+| `@tlob/babloom-svelte` | Svelte 5 adapter (`BabloomEditor`) |
 
 ## Development
 

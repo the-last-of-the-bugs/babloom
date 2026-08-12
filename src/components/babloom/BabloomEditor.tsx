@@ -5,8 +5,8 @@ import {
   StarterKit,
   type Editor,
   type UploadResult,
-} from "@babloom/core";
-import { useEditor } from "@babloom/react";
+} from "@tlob/babloom-core";
+import { useEditor } from "@tlob/babloom-react";
 import {
   Bold,
   Code2,

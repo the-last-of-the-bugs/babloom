@@ -1,5 +1,5 @@
 {
-  "name": "@babloom/svelte",
+  "name": "@tlob/babloom-svelte",
   "version": "0.1.0",
   "description": "Svelte 5 adapter for the BaBloom rich-text editor",
   "license": "MIT",
@@ -14,7 +14,7 @@
     "svelte": "^5.0.0"
   },
   "dependencies": {
-    "@babloom/core": "workspace:*"
+    "@tlob/babloom-core": "workspace:*"
   },
   "scripts": {
     "build": "vite build"

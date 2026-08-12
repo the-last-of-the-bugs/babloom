@@ -17,14 +17,14 @@ export const Route = createFileRoute("/docs/svelte")({
 
 function Page() {
   return (
-    <DocsPage title="Svelte" description="The @babloom/svelte adapter wraps the core in a small component.">
+    <DocsPage title="Svelte" description="The @tlob/babloom-svelte adapter wraps the core in a small component.">
       <H2>Component</H2>
       <CodeBlock
         lang="svelte"
         code={`<script lang="ts">
-  import { BabloomEditor } from "@babloom/svelte";
-  import { StarterKit, type Editor } from "@babloom/core";
-  import "@babloom/core/styles.css";
+  import { BabloomEditor } from "@tlob/babloom-svelte";
+  import { StarterKit, type Editor } from "@tlob/babloom-core";
+  import "@tlob/babloom-core/styles.css";
 
   let editor: Editor | null = null;
 </script>
@@ -37,7 +37,7 @@ function Page() {
       <CodeBlock
         lang="svelte"
         code={`<script lang="ts">
-  import { createEditor, StarterKit } from "@babloom/core";
+  import { createEditor, StarterKit } from "@tlob/babloom-core";
   import { onMount, onDestroy } from "svelte";
 
   let element: HTMLDivElement;

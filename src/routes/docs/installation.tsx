@@ -19,21 +19,21 @@ function Page() {
   return (
     <DocsPage title="Installation" description="Install the core plus the adapter for your framework.">
       <H2>React</H2>
-      <CodeBlock lang="bash" code={`npm install @babloom/core @babloom/react`} />
+      <CodeBlock lang="bash" code={`npm install @tlob/babloom-core @tlob/babloom-react`} />
       <H2>Vue 3</H2>
-      <CodeBlock lang="bash" code={`npm install @babloom/core @babloom/vue`} />
+      <CodeBlock lang="bash" code={`npm install @tlob/babloom-core @tlob/babloom-vue`} />
       <H2>Svelte 5</H2>
-      <CodeBlock lang="bash" code={`npm install @babloom/core @babloom/svelte`} />
+      <CodeBlock lang="bash" code={`npm install @tlob/babloom-core @tlob/babloom-svelte`} />
 
       <H2>Styles</H2>
       <P>Import the base content styles once in your app entry:</P>
-      <CodeBlock lang="ts" code={`import "@babloom/core/styles.css";`} />
+      <CodeBlock lang="ts" code={`import "@tlob/babloom-core/styles.css";`} />
 
       <H2>Vanilla TypeScript</H2>
       <P>No framework? Use the core directly.</P>
       <CodeBlock
         lang="ts"
-        code={`import { createEditor, StarterKit } from "@babloom/core";
+        code={`import { createEditor, StarterKit } from "@tlob/babloom-core";
 
 const editor = createEditor({
   element: document.querySelector("#editor")!,

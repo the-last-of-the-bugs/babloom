@@ -68,7 +68,7 @@ function Index() {
               </Link>
             </div>
             <p className="mt-6 font-mono text-xs text-muted-foreground">
-              npm install @babloom/core @babloom/react
+              npm install @tlob/babloom-core @tlob/babloom-react
             </p>
           </div>
 
@@ -110,8 +110,8 @@ function Index() {
           </div>
           <CodeBlock
             lang="tsx"
-            code={`import { StarterKit, ImageExtension } from "@babloom/core";
-import { useEditor } from "@babloom/react";
+            code={`import { StarterKit, ImageExtension } from "@tlob/babloom-core";
+import { useEditor } from "@tlob/babloom-react";
 
 const { editor, ref } = useEditor({
   extensions: [

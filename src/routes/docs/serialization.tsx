@@ -21,7 +21,7 @@ function Page() {
       <H2>Helpers</H2>
       <CodeBlock
         lang="ts"
-        code={`import { htmlToJSON, jsonToHTML, jsonToText } from "@babloom/core";
+        code={`import { htmlToJSON, jsonToHTML, jsonToText } from "@tlob/babloom-core";
 
 const doc = htmlToJSON("<p>Hello <strong>world</strong></p>");
 const html = jsonToHTML(doc);

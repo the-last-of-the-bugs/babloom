@@ -11,7 +11,7 @@ export default defineConfig({
       formats: ["es"],
     },
     rollupOptions: {
-      external: ["vue", "@babloom/core"],
+      external: ["vue", "@tlob/babloom-core"],
     },
   },
 });

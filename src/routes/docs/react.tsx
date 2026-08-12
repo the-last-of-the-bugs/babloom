@@ -18,7 +18,7 @@ export const Route = createFileRoute("/docs/react")({
 
 function Page() {
   return (
-    <DocsPage title="React" description="The @babloom/react adapter exposes a useEditor hook and re-renders your toolbar on every state change.">
+    <DocsPage title="React" description="The @tlob/babloom-react adapter exposes a useEditor hook and re-renders your toolbar on every state change.">
       <H2>Live demo</H2>
       <P>This editor on the page is powered by the real core running in React.</P>
       <div className="my-6">
@@ -28,9 +28,9 @@ function Page() {
       <H2>Usage</H2>
       <CodeBlock
         lang="tsx"
-        code={`import { StarterKit, PlaceholderExtension } from "@babloom/core";
-import { useEditor } from "@babloom/react";
-import "@babloom/core/styles.css";
+        code={`import { StarterKit, PlaceholderExtension } from "@tlob/babloom-core";
+import { useEditor } from "@tlob/babloom-react";
+import "@tlob/babloom-core/styles.css";
 
 export function Editor() {
   const { editor, ref } = useEditor({

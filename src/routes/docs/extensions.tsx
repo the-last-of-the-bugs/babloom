@@ -34,7 +34,7 @@ function Page() {
       <H2>Writing your own</H2>
       <CodeBlock
         lang="ts"
-        code={`import type { Extension } from "@babloom/core";
+        code={`import type { Extension } from "@tlob/babloom-core";
 
 export function HighlightExtension(): Extension {
   return {

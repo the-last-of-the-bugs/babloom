@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Editor, type EditorOptions } from "@babloom/core";
+  import { Editor, type EditorOptions } from "@tlob/babloom-core";
   import { onDestroy, onMount } from "svelte";
 
   export let options: Omit<EditorOptions, "element"> = {};

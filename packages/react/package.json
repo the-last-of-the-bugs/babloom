@@ -1,5 +1,5 @@
 {
-  "name": "@babloom/react",
+  "name": "@tlob/babloom-react",
   "version": "0.1.0",
   "description": "React adapter for the BaBloom rich-text editor",
   "license": "MIT",
@@ -14,7 +14,7 @@
     "react-dom": ">=18"
   },
   "dependencies": {
-    "@babloom/core": "workspace:*"
+    "@tlob/babloom-core": "workspace:*"
   },
   "scripts": {
     "build": "tsc -p tsconfig.build.json"
