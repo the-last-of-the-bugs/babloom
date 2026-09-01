@@ -26,6 +26,38 @@ It provides a framework-independent editor core with a consistent API, an extens
 
 ---
 
+## 🚀 Installation
+
+Choose the adapter for your framework.
+
+### React
+
+```bash
+npm install @tlob/babloom-react
+```
+
+### Vue
+
+```bash
+npm install @tlob/babloom-vue
+```
+
+### Svelte
+
+```bash
+npm install @tlob/babloom-svelte
+```
+
+### Core
+
+For framework-independent usage:
+
+```bash
+npm install @tlob/babloom-core
+```
+
+---
+
 ## 🤝 Contributing
 
 Contributions are welcome!

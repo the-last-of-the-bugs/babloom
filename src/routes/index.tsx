@@ -44,7 +44,7 @@ function Index() {
           <div className="mx-auto max-w-3xl text-center">
             <span className="inline-flex items-center gap-2 rounded-full border bg-card px-3 py-1 text-xs text-muted-foreground">
               <span className="size-1.5 rounded-full bg-primary" />
-              v0.1.0 · React · Vue · Svelte
+              v0.1.1 · React · Vue · Svelte
             </span>
             <h1 className="mt-6 text-balance text-4xl font-bold tracking-tight sm:text-6xl">
               The rich-text editor that <span className="text-primary">blooms</span> in any framework

@@ -4,7 +4,7 @@
 
 > Framework-agnostic, TypeScript-first rich-text editor core for BaBloom.
 
-`@scope/babloom-core` is the framework-independent engine behind BaBloom.
+`@tlob/babloom-core` is the framework-independent engine behind BaBloom.
 
 It provides the core editor state, content management, formatting, serialization, events, and extension system without depending on React, Vue, Svelte, or any other UI framework.
 
@@ -43,4 +43,4 @@ Build your own editor experience on top of the BaBloom core.
 ### npm
 
 ```bash
-npm install @scope/babloom-core
+npm install @tlob/babloom-core

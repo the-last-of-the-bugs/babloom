@@ -25,7 +25,7 @@ export function SiteHeader() {
         </nav>
         <div className="ml-auto flex items-center gap-2">
           <span className="hidden rounded-full border px-2.5 py-1 font-mono text-[11px] text-muted-foreground sm:inline">
-            v0.1.0
+            v0.1.1
           </span>
           <a
             href="https://github.com/the-last-of-the-bugs/babloom"

@@ -1,6 +1,6 @@
 {
   "name": "@tlob/babloom-vue",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Vue 3 adapter for the BaBloom rich-text editor",
   "license": "MIT",
   "type": "module",
@@ -19,5 +19,22 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^6.0.8"
-  }
+  },
+  "keywords": [
+    "editor",
+    "rich-text",
+    "wysiwyg",
+    "typescript",
+    "babloom",
+    "vue"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/the-last-of-the-bugs/babloom.git",
+    "directory": "packages/vue"
+  },
+  "bugs": {
+    "url": "https://github.com/the-last-of-the-bugs/babloom/issues"
+  },
+  "homepage": "https://github.com/the-last-of-the-bugs/babloom"
 }
