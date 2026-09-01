@@ -19,5 +19,14 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^6.0.8"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/the-last-of-the-bugs/babloom.git",
+    "directory": "packages/vue"
+  },
+  "bugs": {
+    "url": "https://github.com/the-last-of-the-bugs/babloom/issues"
+  },
+  "homepage": "https://github.com/the-last-of-the-bugs/babloom"
 }

@@ -20,5 +20,14 @@
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
     "test": "vitest run"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/the-last-of-the-bugs/babloom.git",
+    "directory": "packages/core"
+  },
+  "bugs": {
+    "url": "https://github.com/the-last-of-the-bugs/babloom/issues"
+  },
+  "homepage": "https://github.com/the-last-of-the-bugs/babloom"
 }

@@ -26,5 +26,14 @@
     "svelte": "^5.56.8",
     "svelte-check": "^4.7.5",
     "vite": "^8.2.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/the-last-of-the-bugs/babloom.git",
+    "directory": "packages/svelte"
+  },
+  "bugs": {
+    "url": "https://github.com/the-last-of-the-bugs/babloom/issues"
+  },
+  "homepage": "https://github.com/the-last-of-the-bugs/babloom"
 }
