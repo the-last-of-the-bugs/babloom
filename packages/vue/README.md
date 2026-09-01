@@ -43,4 +43,4 @@ Build your own editor experience on top of the BaBloom core.
 ### npm
 
 ```bash
-npm install @tlob/babloom-core
+npm install @tlob/babloom-vue
