@@ -1,42 +1,40 @@
-# 🌸 BaBloom Core
+# 🌸 BaBloom React
 
-![alt text](image.png)
+![BaBloom React](image.png)
 
-> Framework-agnostic, TypeScript-first rich-text editor core for BaBloom.
+> React integration for BaBloom, a TypeScript-first rich-text editor.
 
-`@tlob/babloom-core` is the framework-independent engine behind BaBloom.
+`@tlob/babloom-react` provides React components and utilities for building rich-text editing experiences with BaBloom.
 
-It provides the core editor state, content management, formatting, serialization, events, and extension system without depending on React, Vue, Svelte, or any other UI framework.
-
-Build your own editor experience on top of the BaBloom core.
+It is powered by `@tlob/babloom-core`, the framework-independent editor engine behind BaBloom.
 
 ## ✨ Features
 
-- 📝 Rich-text editing
-- **Bold**
-- *Italic*
-- ~~Strikethrough~~
-- Underline
-- Headings
-- Paragraphs
-- Ordered lists
-- Unordered lists
-- Blockquotes
-- Code blocks
-- Inline code
-- Links
-- Text alignment
-- Undo / redo
-- Keyboard shortcuts
-- Selection handling
-- 🖼️ Image support
-- Image insertion
-- Image selection
-- Editor events
-- Content serialization
-- Extensible editor architecture
-- TypeScript-first API
-- Framework independent
+* 📝 Rich-text editing
+* **Bold**
+* *Italic*
+* ~~Strikethrough~~
+* Underline
+* Headings
+* Paragraphs
+* Ordered lists
+* Unordered lists
+* Blockquotes
+* Code blocks
+* Inline code
+* Links
+* Text alignment
+* Undo / redo
+* Keyboard shortcuts
+* Selection handling
+* 🖼️ Image support
+* Image insertion
+* Image selection
+* Editor events
+* Content serialization
+* Extensible editor architecture
+* TypeScript-first API
+* ⚛️ React integration
 
 ## 📦 Installation
 
@@ -44,3 +42,4 @@ Build your own editor experience on top of the BaBloom core.
 
 ```bash
 npm install @tlob/babloom-react
+```

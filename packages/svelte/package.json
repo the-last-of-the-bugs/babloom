@@ -1,6 +1,6 @@
 {
   "name": "@tlob/babloom-svelte",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Svelte 5 adapter for the BaBloom rich-text editor",
   "license": "MIT",
   "type": "module",
@@ -27,6 +27,14 @@
     "svelte-check": "^4.7.5",
     "vite": "^8.2.1"
   },
+  "keywords": [
+    "editor",
+    "rich-text",
+    "wysiwyg",
+    "typescript",
+    "babloom",
+    "svelte"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/the-last-of-the-bugs/babloom.git",
